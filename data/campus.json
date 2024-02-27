@@ -1,0 +1,258 @@
+{
+    "campus": {
+        "campers": {
+            "111": {
+                "NroId": " ",
+                "Nombre": " ",
+                "Apellido": " ",
+                "Direccion": " ",
+                "Acudiente": {
+                    "001": {
+                        "id": " ",
+                        "nrotel": " ",
+                        "nombre": " "
+                    }
+                },
+                "Telecontacto": {
+                    "001": {
+                        "id": "",
+                        "nrotel": ""
+                    },
+                    "002": {
+                        "id": "",
+                        "nrotel": ""
+                    }
+                },
+                "Estado": ""
+            },
+            "222": {
+                "NroId": "",
+                "Nombre": "",
+                "Apellido": "",
+                "Direccion": "",
+                "Acudiente": {
+                    "001": {
+                        "id": "",
+                        "nrotel": "",
+                        "nombre": ""
+                    }
+                },
+                "Telecontacto": {
+                    "001": {
+                        "id": "",
+                        "nrotel": ""
+                    },
+                    "002": {
+                        "id": "",
+                        "nrotel": ""
+                    }
+                },
+                "Estado": ""
+            },
+            "123": {
+                "NroId": "123",
+                "Nombre": "dannag",
+                "Apellido": "rincon",
+                "Direccion": "calle 7",
+                "Acudiente": {
+                    "001": {
+                        "id": "12",
+                        "nrotel": "311",
+                        "nombre": "duran"
+                    }
+                },
+                "Telecontacto": {
+                    "001": {
+                        "id": "1",
+                        "nrotel": "312"
+                    },
+                    "002": {
+                        "id": "1",
+                        "nrotel": "45"
+                    }
+                },
+                "Estado": "Aprobado"
+            },
+            "Gabriela": {
+                "NroId": "Gabriela",
+                "Nombre": "123",
+                "Apellido": "Rincon",
+                "Direccion": "12 j",
+                "Acudiente": {
+                    "001": {
+                        "id": "56",
+                        "nrotel": "3",
+                        "nombre": "df"
+                    }
+                },
+                "Telecontacto": {
+                    "001": {
+                        "id": "1",
+                        "nrotel": "324"
+                    },
+                    "002": {
+                        "id": "1",
+                        "nrotel": "34"
+                    }
+                },
+                "Estado": "Reprobado"
+            },
+            "0918": {
+                "NroId": "0918",
+                "Nombre": "Isabella",
+                "Apellido": "Delgado",
+                "Direccion": "Libertad",
+                "Acudiente": {
+                    "001": {
+                        "id": "1809",
+                        "nrotel": "455",
+                        "nombre": "Antonella"
+                    }
+                },
+                "Telecontacto": {
+                    "001": {
+                        "id": "1",
+                        "nrotel": "314"
+                    },
+                    "002": {
+                        "id": "1",
+                        "nrotel": "23"
+                    }
+                },
+                "Estado": "Aprobado"
+            }
+        },
+        "rutas": {
+            "manana": {
+                "NodeJs": {
+                    "trainer": "321",
+                    "salon": "Apolo",
+                    "campers": {
+                        "111": {
+                            "NroId": "",
+                            "nombre": "",
+                            "apellido": ""
+                        },
+                        "222": {
+                            "NroId": "",
+                            "nombre": "",
+                            "apellido": ""
+                        }
+                    }
+                },
+                "Java": {
+                    "trainer": "456",
+                    "salon": "Sputnik",
+                    "campers": {
+                        "123": {
+                            "NroId": "123",
+                            "nombre": "danna",
+                            "apellido": "alvarez"
+                        },
+                        "0918": {
+                            "NroId": "0918",
+                            "nombre": "Isabella",
+                            "apellido": "Delgado"
+                        }
+                    }
+                },
+                "NetCore": {
+                    "trainer": "",
+                    "salon": "",
+                    "campers": {}
+                }
+            },
+            "tarde": {
+                "NodeJs": {
+                    "trainer": "456",
+                    "salon": "Artemis",
+                    "campers": {}
+                },
+                "Java": {
+                    "trainer": "",
+                    "salon": "",
+                    "campers": {}
+                },
+                "NetCore": {
+                    "trainer": "",
+                    "salon": "",
+                    "campers": {}
+                }
+            }
+        },
+        "pruebas": {
+            "111": {
+                "1": {
+                    "nota": 60.0,
+                    "estado": "Aprobado"
+                },
+                "2": {
+                    "nota": 75.0,
+                    "estado": "Aprobado"
+                }
+            },
+            "222": {
+                "1": {
+                    "nota": 40.0,
+                    "estado": "Riesgo"
+                },
+                "2": {
+                    "nota": 60.0,
+                    "estado": "Aprobado"
+                }
+            }
+        },
+        "salones": {
+            "Artemis": {
+                "manana": "NodeJs",
+                "tarde": "NodeJs"
+            },
+            "Apolo": {
+                "manana": "NodeJs",
+                "tarde": ""
+            },
+            "Sputnik": {
+                "manana": "Java",
+                "tarde": "NodeJs"
+            }
+        },
+        "trainer": {
+            "111": {
+                "id": "111",
+                "nombre": "aaa",
+                "nroCel": "222",
+                "ruta": {
+                    "manana": "NodeJs",
+                    "tarde": "NodeJs"
+                }
+            },
+            "456": {
+                "id": "456",
+                "nombre": "ivan landazaval",
+                "nroCel": "312",
+                "ruta": {
+                    "manana": "Java",
+                    "tarde": "NodeJs"
+                }
+            },
+            "89": {
+                "id": "89",
+                "nombre": "fabian",
+                "nroCel": "78",
+                "ruta": {
+                    "manana": "",
+                    "tarde": ""
+                }
+            },
+            "321": {
+                "id": "321",
+                "nombre": "Jholvert",
+                "nroCel": "323",
+                "ruta": {
+                    "manana": "NodeJs",
+                    "tarde": ""
+                }
+            }
+        }
+    }
+}
